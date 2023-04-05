@@ -1,64 +1,59 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+### **Ecomerse Project**
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+consist of two parts
 
-## About Laravel
+> frontend
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> backend
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**HOW TO RUN PROJECT**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+first make sure you have Xampp server install on your windows system as screenshot below. run the **apache** & **mysql**
+![image](https://user-images.githubusercontent.com/113181806/230190848-0c7760f6-9ee6-44fc-b91a-71b438bbd642.png)
 
-## Learning Laravel
+### **STEP 2**
+because you are gonna clone this project from github so all you need is first go to the directory where you wanna setup this project  eg **C:\xampp\htdocs** and open the gitbash as screenshot below
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![image](https://user-images.githubusercontent.com/113181806/230193298-ab01dc8e-0291-403b-aea5-c84670e66f00.png)
+![image](https://user-images.githubusercontent.com/113181806/230193378-0ce41357-9962-4c3a-8d40-45baf96cb474.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+you will see the terminal of gitbash as screenshot below
+![image](https://user-images.githubusercontent.com/113181806/230193658-ac10b5e5-56d8-4edb-88d1-32405823a8b1.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+**COMMANDS**
+Run git clone <my-cool-project>
+2.Run composer install
+3.Run cp .env.example .env
+4.Run php artisan key:generate
+5.Run php artisan migrate
+6.Run php artisan serve
+7.Go to link localhost:8000
 
-### Premium Partners
+**OUTPUT**
+![image](https://user-images.githubusercontent.com/113181806/230194770-5ce0d521-23a6-4e8f-8cb7-20fc19af40ea.png)
+![image](https://user-images.githubusercontent.com/113181806/230194850-30a20b63-c0af-4fe2-ba82-430dbf8e14ed.png)
+![image](https://user-images.githubusercontent.com/113181806/230194898-1ccf3231-6d29-49db-be95-36dc1e20aab7.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+when you run command **6. php artisan serve** you will be able to see the project
 
-## Contributing
+![image](https://user-images.githubusercontent.com/113181806/230197786-ecd53d80-5df0-4717-9e2b-ff4d1aa89d64.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+### **LOGIN USER**
+**user side**
+email: angeelabab123@user.com
+password: faisal123
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+![image](https://user-images.githubusercontent.com/113181806/230197993-70703642-2b0f-4129-9d7e-5a511d05f78c.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![image](https://user-images.githubusercontent.com/113181806/230198298-4ebbe98d-b0db-4f7c-a65e-43d2e08440e4.png)
 
-## License
+### **LOGIN ADMIN**
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+email: faisalawan@admin.com
+password: faisal123
+
+![image](https://user-images.githubusercontent.com/113181806/230198642-c90bfe13-02bd-4eee-a985-4d236c8df3da.png)
+![image](https://user-images.githubusercontent.com/113181806/230198701-28b10a24-65ca-45ca-a273-d987d5bd3084.png)
